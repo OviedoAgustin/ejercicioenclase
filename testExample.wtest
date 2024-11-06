@@ -1,0 +1,22 @@
+import example.*
+
+const leonardo = new Paciente(
+  edad = 40, dolor = 10, fortalezaMuscular = 20
+)
+
+const milena = new Paciente(
+  edad = 3, dolor = 30, fortalezaMuscular = 50
+)
+
+describe "name" {
+  test "description" {
+    assert.notThat(victoria.puedeHacerRutina())
+  }
+
+  test "description2" {
+    zoe.realizarRutina()
+    assert.equals(29.3, julian.dolor())
+    assert.equals(62, zoe.fortalezaMuscular())
+    
+  }
+}
